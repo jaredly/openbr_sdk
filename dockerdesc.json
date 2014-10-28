@@ -12,7 +12,7 @@
 	},
 	"build": {
 		"anthony_o/openbr_sdk": {
-			"path": "openbr"
+			"path": "openbr_sdk"
 		}
 	},
 	"run": {

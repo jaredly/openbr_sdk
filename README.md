@@ -13,7 +13,7 @@ npm install -g docker-cmd
 Now, you can clone this project, go inside it and do:
 
 ```bash
-sudo docker-cm build anthony-o/openbr_sdk
+sudo docker-cm build anthony_o/openbr_sdk
 ```
 
 # Use
