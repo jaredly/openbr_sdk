@@ -1,0 +1,29 @@
+{
+	"templates": {
+		"run": {
+			"default": {
+				"options": {
+					"tty": "true",
+					"detach": "true",
+					"interactive": "true"
+				}
+			}
+		}
+	},
+	"build": {
+		"anthony_o/openbr_sdk": {
+			"path": "openbr"
+		}
+	},
+	"run": {
+		"openbr_sdk": {
+			"_comment": "See http://stackoverflow.com/a/25280523/535203 to explain the volume section",
+			"image": "anthony_o/openbr_sdk",
+			"options": {
+				"detach": "false",
+				"publish": ["8022:22"],
+				"volume": "/tmp:/tmp"
+			}
+		}
+	}
+}
