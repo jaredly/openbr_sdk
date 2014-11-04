@@ -1,5 +1,5 @@
 # OpenBR SDK
-The goal of this project is to create a development environment to use & code with [OpenBR](openbiometrics.org) and [OpenCV](opencv.org)
+The goal of this project is to create a development environment to use & code with [OpenBR](http://openbiometrics.org) and [OpenCV](http://opencv.org)
 
 # Install
 First, you'll have to install [docker](https://docs.docker.com/installation/#installation).
