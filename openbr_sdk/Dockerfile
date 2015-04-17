@@ -25,8 +25,6 @@ RUN git clone https://github.com/biometrics/openbr.git
 
 RUN cd openbr && git checkout 0.5 && git submodule init && git submodule update && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j4 && sudo make install
 
-RUN cd .. && rm -rf openbr
-
 # sharing X11 as in http://stackoverflow.com/a/25280523/535203
 ENV DISPLAY :0
 ENV XAUTHORITY /tmp/.docker.xauth
